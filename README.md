@@ -1,17 +1,16 @@
 # Install Mosquitto MQTT Broker
 1. Update Raspberry pi
-'''bash
-sudo apt update && sudo apt upgrade -y
+```sudo apt update && sudo apt upgrade -y```
 
 3. Install Mosquitto Broker and Client
-'''sudo apt install -y mosquitto mosquitto-clients'''
+```sudo apt install -y mosquitto mosquitto-clients```
 
 4. Enable and Start Mosquitto
-'''sudo systemctl enable mosquitto'''
-'''sudo systemctl start mosquitto'''
+```sudo systemctl enable mosquitto```
+```sudo systemctl start mosquitto```
 
 5. Edit the Mosquitto Configuration File
-'''sudo nano /etc/mosquitto/mosquitto.conf'''
+```sudo nano /etc/mosquitto/mosquitto.conf```
 
 6. Add Listener and Allow Anonymous Connections
 

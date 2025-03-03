@@ -1,6 +1,7 @@
 # Install Mosquitto MQTT Broker
 1. Update Raspberry pi
-"sudo apt update && sudo apt upgrade -y"
+'''bash
+sudo apt update && sudo apt upgrade -y
 
 3. Install Mosquitto Broker and Client
 '''sudo apt install -y mosquitto mosquitto-clients'''

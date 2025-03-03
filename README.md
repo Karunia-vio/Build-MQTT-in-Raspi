@@ -12,14 +12,12 @@
 5. Edit the Mosquitto Configuration File
 ```sudo nano /etc/mosquitto/mosquitto.conf```
 
-6. Add Listener and Allow Anonymous Connections
-
-At the end of the file, add:
-'''listener 1883'''
-'''allow_anonymous true'''
+6. Add Listener and Allow Anonymous Connections, at the end of the file, add:
+```listener 1883```
+```allow_anonymous true```
 
 6. Save and Restart Mosquitto
-'''sudo systemctl restart mosquitto'''
+```sudo systemctl restart mosquitto```
 
 7. Test the connection using an MQTT client like MQTT Explorer or by running:
-'mosquitto_sub -h <raspberry_pi_ip> -t test/topic'
+```mosquitto_sub -h <raspberry_pi_ip> -t test/topic```
